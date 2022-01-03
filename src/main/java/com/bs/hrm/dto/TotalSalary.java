@@ -1,0 +1,57 @@
+package com.bs.hrm.dto;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class TotalSalary {
+
+	private Integer	year;
+	private Integer month;
+	private String monthStr;
+	private String employeeType;
+	private BigDecimal basicSalary;
+	private BigDecimal overtimeAmount;
+	private BigDecimal allowance;
+	private BigDecimal totalSalary;
+	private BigDecimal loanDeduction;
+	private BigDecimal netSalary;
+	private LocalDate salaryDate;
+	private Integer 		departmentId;
+	
+	private String filler1;
+	private String filler2;
+	private String filler3;
+	private String filler4;
+	private String filler5;
+	private String filler6;
+	private String filler7;
+	private String filler8;
+	private String filler9;
+	private String filler10;
+	private String filler11;
+	private String filler12;
+	private String filler13;
+	private String filler14;
+	private String filler15;
+	private String filler16;
+	private String filler17;
+	private String filler18;
+	private String filler19;
+	private String filler20;
+	private LocalDateTime createdDate;
+	private LocalDateTime updatedDate;
+	private String createdBy;
+	private String createdIp; 
+	private String updatedBy;
+	private String updatedIp;
+	
+
+}
